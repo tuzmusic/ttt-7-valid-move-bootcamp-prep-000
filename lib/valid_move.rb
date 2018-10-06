@@ -1,5 +1,5 @@
  def valid_move? (board, oneBasedIndex)
-   return (oneBasedIndex - 1).between(0, board.size)
+   return (oneBasedIndex - 1).between?(0, board.size)
  end
 
 
